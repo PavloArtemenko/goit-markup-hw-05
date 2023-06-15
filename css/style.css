@@ -525,6 +525,62 @@ max-width: 264px;
     background-color: var(--Success-color);
 }
 
+.footer-sub-text{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.footer-sub-form{
+    display: flex;
+}
+
+.footer-sub-label{
+    gap: 24px;
+}
+.footer-sub-input{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.footer-sub-input::placeholder{
+    color: #ffffff;
+}
+
+.sub-btn{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: flex;
+    min-width: 165px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: var(--Primary-Brand-color);
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-svg{
+    margin-left: 16px;
+}
+
 /** ---------------------------PORTFOLIO--------------------*/
 
 
@@ -811,6 +867,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
     background-color: var(--Primary-Brand-color);
     border-color: var(--Primary-Brand-color);
     border: none;
+    margin: auto;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
