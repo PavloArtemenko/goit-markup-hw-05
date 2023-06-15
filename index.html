@@ -354,7 +354,7 @@
                 <form class="modal-form">
                     <div class="modal-field">
                         <label for="user-name" class="modal-label" >Name</label>
-                        <div>
+                        <div class="input-block">
                             <input 
                             type="text" 
                             name="user-name" 
@@ -368,7 +368,7 @@
                     </div>
                     <div class="modal-field">
                         <label for="user-tel" class="modal-label" >Phone</label>
-                        <div>
+                        <div class="input-block">
                             <input 
                             type="tel" 
                             name="user-tel" 
@@ -382,7 +382,7 @@
                     </div>
                     <div class="modal-field">
                         <label for="user-email" class="modal-label" >Email</label>
-                        <div>
+                        <div class="input-block">
                             <input 
                             type="email" 
                             name="user-email" 
@@ -393,6 +393,24 @@
                                 <use href="./images/icons.svg#icon-Vector2"></use>
                             </svg>
                         </div>
+                    </div>
+                    <div class="modal-field">
+                        <label for="user-comment" class="modal-label" >Comment</label>
+                        <textarea 
+                        name="user-comment" 
+                        id="user-comment" 
+                        placeholder="Text input" 
+                        class="modal-comment"></textarea>
+                    </div>
+                    <div class="modal-checked">
+                        <input
+                        name="user-privacy"
+                        id="user-privacy"
+                        type="checkbox"
+                        value="true"
+                        class="checked-input visually-hidden"
+                        />
+                        <label for="user-privacy" class="checked-label">I accept the terms and conditions of the <span class="label-span">Privacy Policy</span></label>
                     </div>
                     <button type="button" class="btn-send">Send</button>
                 </form>
