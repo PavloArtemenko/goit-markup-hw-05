@@ -343,13 +343,53 @@
                 </div>
             </div>
         </footer>
-        <div class="backdrop is-hidden" data-modal>
+        <div class="backdrop" data-modal>
             <div class="modal">
                 <button type="button" class="modal-btn" data-modal-close>
                     <svg class="btn-close" width="8" height="8">
                         <use href="./images/icons.svg#icon-x"></use>
                     </svg>
                 </button>
+                <p class="modal-title">Leave your contacts and we will call you back</p>
+                <form class="modal-form">
+                    <div class="modal-field">
+                        <label for="user-name" class="modal-label" >Name</label>
+                        <input 
+                        type="text" 
+                        name="user-name" 
+                        id="user-name" 
+                        class="modal-input" 
+                        />
+                        <svg class="input-icon" width="12" height="12">
+                            <use href="./images/icons.svg#icon-Vector"></use>
+                        </svg>
+                    </div>
+                    <div class="modal-field">
+                        <label for="user-tel" class="modal-label" >Phone</label>
+                        <input 
+                        type="tel" 
+                        name="user-tel" 
+                        id="user-tel" 
+                        class="modal-input" 
+                        />
+                        <svg class="input-icon" width="12" height="12">
+                            <use href="./images/icons.svg#icon-Vector1"></use>
+                        </svg>
+                    </div>
+                    <div class="modal-field">
+                        <label for="user-email" class="modal-label" >Email</label>
+                        <input 
+                        type="email" 
+                        name="user-email" 
+                        id="user-email" 
+                        class="modal-input" 
+                        />
+                        <svg class="input-icon" width="12" height="12">
+                            <use href="./images/icons.svg#icon-Vector2"></use>
+                        </svg>
+                    </div>
+                    <button type="button" class="btn-send">Send</button>
+                </form>
             </div>
         </div>
         <script src="./js/modal.js"></script>
