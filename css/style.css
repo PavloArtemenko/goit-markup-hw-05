@@ -534,8 +534,13 @@ max-width: 264px;
     color: #ffffff;
 }
 
+.footer-sub {
+    margin-left: auto;
+}
+
 .footer-sub-form{
     display: flex;
+    gap: 24px;
 }
 
 .footer-sub-label{
@@ -575,6 +580,7 @@ max-width: 264px;
     background-color: var(--Primary-Brand-color);
     border: none;
     border-radius: 4px;
+
 }
 
 .btn-svg{
