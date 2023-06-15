@@ -715,6 +715,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
 }
 
 .modal-input:focus{
@@ -807,8 +808,19 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    background-color: var(--Primary-Brand-color);
     border-color: var(--Primary-Brand-color);
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checked-link {
+    color: var(--Primary-Brand-color);
+}
+
+.checked-input:checked + .checked-label>.label-span {
+    background-color: var(--state-color);
+    border: none;
+    fill:var(--Light-color);
 }
