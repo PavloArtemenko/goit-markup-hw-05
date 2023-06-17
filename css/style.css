@@ -585,6 +585,7 @@ max-width: 264px;
 
 .btn-svg{
     margin-left: 16px;
+    fill: #FFFFFF;
 }
 
 /** ---------------------------PORTFOLIO--------------------*/
@@ -812,6 +813,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--Dark-color);
 }
 
 .modal-comment {
@@ -834,8 +836,8 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
     margin-bottom: 16px;
 }
 
-.modal-comment:focus {
-    border-color: var(--Primary-Brand-color);
+.checked-input:focus + .label-span {
+    border-color: var(--state-color);
 }
 
 .modal-checked{
@@ -860,6 +862,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
     justify-content: center;
     fill: transparent;
 }
+
 
 .btn-send{
     display: block;
